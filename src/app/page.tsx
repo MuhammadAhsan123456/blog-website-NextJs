@@ -1,9 +1,11 @@
+import Hero from "@/components/Hero";
+import NewProducts from "@/components/NewProducts";
+import Testmonial from "@/components/Testmonial";
 
 export default function Home() {
-  return (
-    <>
-      <h1 className="text-6xl font-bold text-center">Tailwind Css</h1>
-      <h1 className="text-6xl font-bold text-center">Tailwind Css</h1>
-    </>
-  );
+  return <main>
+    <Hero/>
+    <NewProducts/>
+    <Testmonial />
+  </main>
 }
